@@ -1,0 +1,16 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+/css/*
+  Cache-Control: public, max-age=360000
+/fonts/*
+  Cache-Control: public, max-age=360000
+/images/*
+  Cache-Control: public, max-age=360000
+/js/*
+  Cache-Control: public, max-age=360000
+/admin/*
+  Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+/.netlify/*
+  Cache-Control: no-cache, no-store, must-revalidate, max-age=0
